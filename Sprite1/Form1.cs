@@ -58,6 +58,7 @@ namespace Sprite1
             Graphics g = e.Graphics;
             // Desenha o sprite como um quadrado vermelho
             g.FillRectangle(Brushes.Red, sprite);
+            g.FillEllipse(Brushes.Blue, sprite);
         }
 
         // Detecta as teclas pressionadas e move o sprite
